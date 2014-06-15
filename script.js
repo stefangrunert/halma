@@ -196,7 +196,7 @@ function initChat() {
 $(document ).ready(function() {
     var viewPortW = $( document ).width();
     var viewPortH = $( document ).height();
-    var dim = viewPortW > viewPortH ?  viewPortH - 20 : viewPortW - 20;
+    var dim = viewPortW > viewPortH ?  viewPortH * .9 : viewPortW * .9;
     initHalma(dim);
     initChat();
 });
