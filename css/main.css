@@ -1,0 +1,67 @@
+body {
+    font-family: Verdana, Arial, helvetica, sans-serif;
+    font-size: 1.3em;
+    margin: 0;
+    padding: 0;
+}
+
+#spiel-container, #dash-container {
+    float: left;
+}
+
+#spiel-container {
+    margin: 10px 0 0 10px;
+}
+
+#chat-container {
+    margin-left: 20px;
+}
+
+#conversation {
+    height: 250px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 450px;
+    padding: 6px;
+    background-color: #fff8dc;
+    font-size: .75em;
+    border: solid #CCC 1px;
+    border-bottom: none;
+}
+
+#conversation span {
+    margin: 0 3px 0 0 ;
+    color: #1b76ac;
+    font-size: .7em;
+}
+#chat-input {
+    border: solid #CCC 1px;
+    border-top-color:  #DDD;
+    background-color: rgba(255, 248, 220, 0.63);
+    width: 450px;
+    padding: 6px;
+    font-size: .9em;
+
+}
+#connectionArea {
+    font-size: .8em;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(43, 129, 175, 0.1);
+}
+
+#participant {
+   margin-left: 20px;
+    margin-bottom: 20px;
+    width: 450px;
+ font-size: .9em;
+    line-height: 38px;
+}
+
+#participant input {
+    padding: 5px 6px;
+    vertical-align: top;
+    font-size: 1em;
+}

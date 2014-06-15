@@ -1,22 +1,19 @@
-<?php
-function getSignalServerUrl() {
- //return 'http://192.168.2.103:8080';
- return 'http://lab.aptoma.no:8080';
- //return 'http://localhost:8080';
-}
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
+    <script type="application/javascript">
+        var signalServerUrl = 'http://lab.aptoma.no:8080';
+    </script>
     <meta charset="UTF-8" />
     <title>Halma</title>
     <!-- Assumes global locations for socket.io.js and easyrtc.js -->
     <script src="lib/jquery-ui-1.10.4.custom/js/jquery-1.10.2.js"></script>
     <script src="lib/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js"></script>
     <script src="lib/jquery-ui-1.10.4.custom/js/jquery-ui-touch-punch.js"></script>
-    <script src="<?=getSignalServerUrl()?>/socket.io/socket.io.js"></script>
-    <script src="<?=getSignalServerUrl()?>/easyrtc/easyrtc.js"></script>
+    <script>
+        document.write('<script src="' + signalServerUrl + '/socket.io/socket.io.js"><\/script>');
+        document.write('<script src="' + signalServerUrl + '/easyrtc/easyrtc.js"><\/script>');
+    </script>
     <script src="lib/raphael.js"></script>
     <script src="lib/jens.js"></script>
     <script src="lib/halmabrett.js"></script>
@@ -98,7 +95,7 @@ function getSignalServerUrl() {
     </style>
 
 </head>
-<body onload="connect('<?=getSignalServerUrl()?>')">
+<body onload="connect(signalServerUrl)">
 
 
 <div id="spiel-container">
