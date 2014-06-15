@@ -1,0 +1,73 @@
+.canvas_container_600 {
+    width: 600px;
+    border: 1px solid #aaa;
+}
+.dbrow_600 {
+    position: absolute;
+    top: 0px;
+    left: 620px;
+}
+.brow_600 {
+    position: absolute;
+    top: 45px;
+    left: 620px;
+}
+.wslm_status_600 {
+    position: absolute;
+    top: 70px;
+    left: 620px;
+    width: 250px;
+    background: ".ff4040";
+}
+.status_600 {
+    position: absolute;
+    top: 100px;
+    left: 620px;
+    border:1px solid black;
+    width: 250px;
+}
+.message_600 {
+    position: absolute;
+    top: 130px;
+    left: 620px;
+    border:1px solid black;
+    width: 250px;
+    height: 300px;
+    overflow-y: scroll;
+}
+.ip_600 {
+    position: absolute;
+    top: 425px;
+    left: 620px;
+    width: 250px;
+}
+.input_600 {
+    position: absolute;
+    top: 460px;
+    left: 620px;
+    width: 250px;
+}
+.game_600 {
+    position: absolute;
+    top: 480px;
+    left: 620px;
+    width: 250px;
+}
+.selectspiel_600 {
+    position: absolute;
+    top: 515px;
+    left: 620px;
+    width: 250px;
+}
+.selectsize_600 {
+    position: absolute;
+    top: 540px;
+    left: 620px;
+    width: 250px;
+}
+.debug_600 {
+    position: absolute;
+    top: 565px;
+    left: 620px;
+    width: 250px;
+}
